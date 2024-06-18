@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+
+  
 }
 
 .App-logo {
@@ -36,3 +38,118 @@
     transform: rotate(360deg);
   }
 }
+
+/* Form Container Styles */
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: white; /* White background for the box */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for the box effect */
+  color: #333;
+  margin-top: 120px;
+  margin-bottom:-100px;
+}
+
+.auth-form-container h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #300d38; /* Dark purple text */
+}
+
+.auth-form-container form {
+ 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.auth-form-container label {
+  margin-top:10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #300d38;
+  text-align: left;
+  font-size: 15px;
+
+}
+
+.auth-form-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  background-color:#ECE5F0;
+}
+
+.auth-form-container button[type="submit"] {
+  
+  background-color: #300d38; /* Dark purple background */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.auth-form-container button[type="submit"]:hover {
+  background-color: #4b124f; /* Slightly lighter purple on hover */
+}
+
+.auth-form-container .link-btn {
+  background: none;
+  color: #300d38; /* Dark purple text */
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.auth-form-container .link-btn:hover {
+  color: #4b124f; /* Slightly lighter purple on hover */
+}
+
+body{
+background-color: #ECE5F0;
+}
+
+
+
+.dog-gif {
+  position: relative;
+  bottom: -120px; /* Adjust position as needed */
+  left:-60px;
+  right:200px;
+  width: 200px; /* Full width */
+  height: 200px; /* Maintain aspect ratio */
+  z-index: 1; /* Ensure the dog is above other content */
+  animation: moveDog 10s linear infinite; /* Adjust animation duration */
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveDog {
+  from {translate: 0 0;
+    
+    
+  }
+
+  to {
+    translate: 150vw 0;
+   
+    
+  }
+}
+
+

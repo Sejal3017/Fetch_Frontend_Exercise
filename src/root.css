@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+:root {
+  --font-primary: "syne", sans-serif;
+  --font-secondary: "Lexend", sans-serif;
+}
+
+.font-syne {
+  font-family: var(--font-primary);
+}
+.font-Lexend {
+  font-family: var(--font-secondary);
+}
+
+.footer-img {
+  background-image: url("./assets/footer-background.jpg");
+}
