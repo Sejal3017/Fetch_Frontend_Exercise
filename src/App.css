@@ -65,7 +65,7 @@
 }
 
 .auth-form-container form {
- 
+  
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -82,6 +82,7 @@
 }
 
 .auth-form-container input {
+  outline: none;
   margin-bottom: 15px;
   padding: 10px;
   border: 1px;

@@ -1,9 +1,9 @@
 import React, { useState, lazy, Suspense } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import DogGif from '/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/img/running_dog.gif';
-const Nav = lazy(async () => import('/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/elements/nav.jsx'));
-const Footer = lazy(async () => import('/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/elements/footer.jsx'));
+import DogGif from './running_dog.gif';
+const Nav = lazy(async () => import('./nav.jsx'));
+const Footer = lazy(async () => import('./footer.jsx'));
 
 
 const Login = () => {

@@ -1,4 +1,4 @@
-import Logo from "/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/img/logo.svg";
+import Logo from "./logo.svg";
 
 function Nav() {
   return (

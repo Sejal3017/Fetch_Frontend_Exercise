@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/img/logo.svg';
+import Logo from './logo.svg';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 

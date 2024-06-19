@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { useLocation } from 'react-router-dom';
-const Nav2 = lazy(async () => import('/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/elements/nav_2.jsx'));
-const Footer = lazy(async () => import('/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/elements/footer.jsx'));
+const Nav2 = lazy(async () => import('./nav_2.jsx'));
+const Footer = lazy(async () => import('./footer.jsx'));
 
 const Match = () => {
     const location = useLocation();

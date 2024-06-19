@@ -8,8 +8,8 @@ import { faPaw } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
-const Nav2 = lazy(async () => import('/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/elements/nav_2.jsx'));
-const Footer = lazy(async () => import('/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/elements/footer.jsx'));
+const Nav2 = lazy(async () => import('./nav_2.jsx'));
+const Footer = lazy(async () => import('./footer.jsx'));
 
 
 const Search = () => {

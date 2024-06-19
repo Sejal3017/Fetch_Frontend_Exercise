@@ -1,5 +1,5 @@
 import React from 'react';
-import Bg_img from '/Users/sejalbhanushali/Desktop/Fetch_demo/fetch-fe/src/img/f_bg.jpg';
+import Bg_img from './f_bg.jpg';
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 
 
