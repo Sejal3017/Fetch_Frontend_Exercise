@@ -282,11 +282,11 @@ const DogCard = ({ dog, favorites, toggleFavorite }) => {
     return (
         <div className="bg-white rounded-sm shadow-md p-2 text-center hover:shadow-lg transition-shadow">
     <img src={dog.img} alt={dog.name} className="w-full h-80 object-cover mb-4" />
-    <h3 className="text-left text-xl font-bold mb-3">{dog.name}</h3>
-    <p className="text-left font-medium text-gray-700">Zip Code: {dog.zip_code}</p>
-    <p className="text-left font-medium text-gray-700 mt-2">Breed: {dog.breed}</p>
+    <h3 className="ml-2 text-left text-xl font-bold mb-3">{dog.name}</h3>
+    <p className=" ml-2 text-left font-medium text-gray-700">Zip Code: {dog.zip_code}</p>
+    <p className=" ml-2 text-left font-medium text-gray-700 mt-2">Breed: {dog.breed}</p>
     <div className="flex justify-between items-center">
-        <p className="text-left font-medium text-gray-700">Age: {dog.age}</p>
+        <p className="ml-2 text-left font-medium text-gray-700">Age: {dog.age}</p>
         <label className="cursor-pointer ml-2">
             <input
                 type="checkbox"
@@ -294,7 +294,7 @@ const DogCard = ({ dog, favorites, toggleFavorite }) => {
                 onChange={() => toggleFavorite(dog.id)}
                 className="sr-only peer"
             />
-            <div className="text-gray-400 peer-checked:text-red-500 transition-colors duration-200">
+            <div className="mr-4 text-gray-400 peer-checked:text-red-500 transition-colors duration-200">
                 <FontAwesomeIcon icon={favorites.includes(dog.id) ? faHeartFull : faHeartEmpty} className="h-8 w-8" />
             </div>
         </label>
@@ -306,6 +306,6 @@ const DogCard = ({ dog, favorites, toggleFavorite }) => {
   };
 
 
-export default Search
+export default Search;
 
 
