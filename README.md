@@ -49,5 +49,5 @@ Once the application is running, you can:
 
 ## Deployment
 
-The application is deployed on Netlify and can be accessed at [Live demo](https://fetchfrontendexercise.netlify.app/)
+The application is deployed on Netlify and can be accessed at [Live demo](https://fetchfrontend.netlify.app/login)
 
