@@ -9,6 +9,7 @@ Welcome to the Fetch Frontend Take-Home Exercise project repository. This projec
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Deployment](#deployment)
+- [Preview](#preview)
 
 ## Features
 
@@ -50,4 +51,13 @@ Once the application is running, you can:
 ## Deployment
 
 The application is deployed on Netlify and can be accessed at [Live demo](https://fetchfrontend.netlify.app/login)
+
+## Preview
+
+<img src="/Screenshots/ss_4.gif" width="50%"/>
+<img src="/Screenshots/ss_2.png" width="50%"/>
+<img src="/Screenshots/ss_1.png" width="50%"/>
+<img src="/Screenshots/ss_3.png" width="50%"/>
+
+
 
